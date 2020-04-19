@@ -1,0 +1,322 @@
+body {
+    display: flex;
+    text-align: justify;
+    margin: 0px;
+    
+}
+/* PARTIE GAUCHE*/
+#partiegauche {
+    flex-direction: column;
+    background-color: #FECA07;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.bio {
+    height: 850px;
+    font-weight: 400;
+    color: #71663C;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+.information {
+    height:400px;
+    justify-content:space-around;
+
+}
+.informationss {
+    margin-top: 205px;
+}
+.fondphoto 
+{
+   
+   
+}
+.photo {
+    margin-left: 86px;
+    border-radius: 50%;
+    height: 209px;
+    width: 199px;
+    box-shadow: 0 0 0px 4px #DAAF12;
+    margin-top: 50px;
+}
+.titregauche {
+    background-color: #404040;
+    color: #FECA07;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+     width: auto;
+    height: auto;
+}
+.conteneurlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    width: 99%;
+    margin-top: 35px;
+}
+.info {
+    font-weight: 400;
+    color: #71663C;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*PARTIE DROITE*/
+#partiedroite {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    flex-grow: 1;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+}
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+}
+.job {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 500px;
+    color: #4A4A4A;
+}
+.soul {
+    border-bottom: 2px solid #FECA07;
+}
+.prenom {
+    font-weight: 400;
+    color: #FECA07;
+}
+.noms {
+   
+   font-weight:270;
+}
+.date {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    font-size: 1em;
+   
+   
+   
+}
+.date2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+h3 {
+    font-size:1.4em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 5px;
+}
+.infodroite {
+    display: flex;
+    color: #4A4A4A;
+}
+.infodroites {
+    display: flex;
+    color: #4A4A4A;
+    margin-top: 30px;
+}
+.ref{
+    width:500px;
+    height:250px;
+    
+    
+}
+.paragraphe {
+    text-align: left;
+}
+.comp{
+    display:flex;
+    justify-content:space-between;
+}
+.compinfo{
+    
+    flex-direction:column;
+    margin-right:80px;
+    width:150px;
+
+}
+.compinfo1 {   
+    flex-direction: column;
+    margin-right: 500px;
+    width:150px;
+}
+ul {
+    list-style-type: none; /*enléve les point de la liste*/
+}
+.logocotebordure {
+    display: flex;
+    border-bottom: 2px solid;
+    border-color: #FECA07;
+    width: 750px;
+}
+.logo1{
+    
+    margin-top:20px;
+    width:60px;
+}
+.far.fa-dot-circle, .fas.fa-circle {
+    font-size: 1em;
+    color: #FECA07;
+    margin-bottom: 30px;
+}
+.fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
+    font-size: 3em;
+    color:#FECA07;
+}
+.logo3 {
+    color: #424242;
+    font-size: 1.5em;
+    border: 5px solid #424242;
+    padding: 0.6em;
+    border-radius: 50%;
+}
+.exp {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    font-size: 1.9em;
+    font-weight:600;
+}
+@font-face {
+    font-family: 'poppins';
+   
+}/*TYPE DE POLICE*/
+
+/*ajustement de la taille de l'ecran*/
+
+@media screen and (max-width: 1200px){/*point de rupture(breaking point)valeur max a 1200px.*/
+   
+
+}
+
+@media screen and (max-width:768px){/* point de rupture(breaking point)valeur inferieur a 768px.*/
+
+body {
+    flex-direction: column-reverse;
+}
+#partiegauche {  
+    width:auto;
+    height: auto;    
+}
+.bio {
+    height: auto;  
+}
+.information {
+   
+}
+#partiedroite {   
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.fondphoto {
+
+   
+}
+.photo {   
+    height: 149px;
+    width: 129px;
+    box-shadow: 0 0 0px 4px #DAAF12;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+}
+.titregauche {  
+    font-weight: 400;
+}
+.name {
+    font-size: 1.1em;
+}
+.job {
+}
+.soul {
+    
+}
+.prenom {
+    
+}
+.noms {
+     
+}
+.date {
+    width: 140px;
+    height: 300px;
+   
+}
+.date2 {
+    margin-left: 5px;
+    margin-top: 0px;
+}
+h3 {
+    font-size:1.1em;
+    margin-top: 10px;
+}
+h4 {
+    margin-top: -10px; 
+}
+.infodroite {
+   
+}
+.ref{
+    width:600px;
+}
+.comp{
+   
+}
+.compinfo{ 
+    margin-left:20px;
+    width: 250px;
+}
+.compinfo1 {
+    margin-right: 20px;
+    width:250px;
+}
+ul {
+   
+}
+.logocotebordure {  
+    width: auto;
+}
+.logo1{   
+    margin-top:0px;
+    width:auto;
+}
+.far.fa-dot-circle, .fas.fa-circle {
+    color: #e53935;   
+}
+.fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
+    font-size: 2em;
+    color: #e53935;
+    margin-top: 10px;
+}
+.logo3 {
+   
+}
+.conteneurlogo {
+    
+}
+.exp {  
+    font-size: 1.3em;
+}
+.informationss {
+      
+}
+.info {
+  
+ }
+}
