@@ -145,17 +145,20 @@ h4 {
     display:flex;
     justify-content:space-between;
 }
-.compinfo{
-    
-    flex-direction:column;
-    margin-right:80px;
-    width:150px;
-
-}
-.compinfo1 {   
+.compinfo {
     flex-direction: column;
-    margin-right: 500px;
-    width:150px;
+    margin-right: 53px;
+    width: 271px;
+    color: #4A4A4A;
+}
+.compinfo1 {
+    flex-direction: column;
+    margin-right: 292px;
+    width: 255px;
+    color: #4A4A4A;
+}
+.email {
+    color: #929292;
 }
 ul {
     list-style-type: none; /*enléve les point de la liste*/
@@ -255,12 +258,16 @@ body {
 }
 .date {
     width: 140px;
-    height: 300px;
+    height: 50px;
+    margin-top:22px;
    
+    align-items:flex-start;
+    
 }
 .date2 {
     margin-left: 5px;
     margin-top: 0px;
+    font-size:0.8em;
 }
 h3 {
     font-size:1.1em;
@@ -273,18 +280,23 @@ h4 {
    
 }
 .ref{
-    width:600px;
+    margin-top:10px;
+    width:550px;
+    height:auto;
+    font-size:0.8em;
 }
 .comp{
    
 }
 .compinfo{ 
-    margin-left:20px;
-    width: 250px;
+    margin-left:0px;
+    width: 120px;
+    font-size:0.9em;
 }
 .compinfo1 {
-    margin-right: 20px;
-    width:250px;
+    margin-right: 110px;
+    width:130px;
+    font-size:0.9em;
 }
 ul {
    
@@ -297,7 +309,8 @@ ul {
     width:auto;
 }
 .far.fa-dot-circle, .fas.fa-circle {
-    color: #e53935;   
+    color: #e53935;
+     font-size: 0.9em;
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 2em;
