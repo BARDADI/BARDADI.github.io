@@ -218,12 +218,12 @@ body {
     height: auto;  
 }
 .information {
-   height:340px;
+   height:auto;
    justify-content:space-around;
    border:1px solid;
 }
 .informations {
-    height:340px;
+    height:auto;
     border:1px solid;
 }
 .informationss {
@@ -252,7 +252,7 @@ body {
     margin-top:0px;
 }
 .name {
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 .job {
 }
@@ -338,4 +338,31 @@ ul {
 .info {
   
  }
+}
+@media screen and (max-width:420px){
+
+.photo {
+    height: 92px;
+    width: 82px;
+    box-shadow: 0 0 0px 4px #DAAF12;
+    position: absolute;
+    top: 54px;
+    left: 238px;
+}
+.compinfo{ 
+    margin-left: 13px;
+    width: 144px;
+    font-size: 0.7em;
+}
+.compinfo1 {
+    margin-right: 24px;
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: -40px;
+}
+ul{
+    padding-left: 0px;
+}
+
+
 }
