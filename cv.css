@@ -209,6 +209,7 @@ ul {
 
 body {
     flex-direction: column-reverse;
+    width:auto;
 }
 #partiegauche {  
     width:auto;
@@ -218,12 +219,12 @@ body {
     height: auto;  
 }
 .information {
-   height:340px;
+   height:auto;
    justify-content:space-around;
    border:1px solid;
 }
 .informations {
-    height:340px;
+    height:auto;
     border:1px solid;
 }
 .informationss {
@@ -252,7 +253,7 @@ body {
     margin-top:0px;
 }
 .name {
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 .job {
 }
@@ -338,4 +339,61 @@ ul {
 .info {
   
  }
+}
+@media screen and (max-width:420px){
+
+.photo {
+    height: 99px;
+    width: 89px;
+    box-shadow: 0 0 0px 4px #DAAF12;
+    position: absolute;
+    top: -32px;
+    left: 123px;
+}
+.compinfo{ 
+    margin-left: 13px;
+    width: 144px;
+    font-size: 0.7em;
+}
+.compinfo1 {
+    margin-right: 24px;
+    width: 130px;
+    font-size: 0.7em;
+    margin-left: -40px;
+}
+ul{
+    padding-left: 0px;
+}
+h1{
+    font-size:1em;
+}
+.job{
+    font-size: 0.7em;
+}
+.logo1{
+    font-size: 0.7em;
+}
+.exp {
+    font-size: 0.8em;
+}
+.ref {
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
+    font-size: 1.3em;
+    color: #DE927A;
+    margin-top: 10px;
+}
+.info {
+    
+    font-size: 0.9em;
+}
+.bio {
+    
+    font-size: 0.9em;
+}
 }
