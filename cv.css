@@ -201,7 +201,148 @@ ul {
 /*ajustement de la taille de l'ecran*/
 
 @media screen and (max-width: 1200px){/*point de rupture(breaking point)valeur max a 1200px.*/
-   
+.name {
+    font-size: 1.5em;
+}  
+#partiedroite {
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 0px;
+    flex-grow: 1;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+}
+.logocotebordure {
+    display: flex;
+    border-bottom: 2px solid;
+    border-color: #FECA07;
+    width: auto;
+}
+.date {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 1em;
+}
+.ref {
+    width: auto;
+    height: auto;
+    margin-left: 13px;
+}
+.photo {
+    margin-left:  120px;
+    border-radius: 50%;
+    height: 130px;
+    width: 120px;
+    box-shadow: 0 0 0px 4px #DAAF12;
+    margin-top: 30px;
+}
+.information {
+    height: auto;
+    justify-content: space-around;
+}
+.titregauche {
+    background-color: #404040;
+    color: #FECA07;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+}
+.info {
+    font-weight: 400;
+    color: #71663C;
+    text-align: center;
+}
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    width: auto;
+}
+.fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
+    font-size: 2em;
+    color: #FECA07;
+}
+.exp {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.date2 {
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+.date {
+    display: flex;
+    align-items: center;
+    /* width: auto; */
+    height: auto;
+    font-size: 1em;
+    /* margin-left: -6px; */
+    width: 60px;
+}
+.paragraphe {
+    text-align: left;
+    font-size: 0.8em;
+    height: auto;
+}
+.comp {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+.compinfo {
+    flex-direction: column;
+    width: auto;
+    color: #4A4A4A;
+}
+.compinfo1 {
+    flex-direction: column;
+    margin-right: 217px;
+    width: 255px;
+    color: #4A4A4A;
+}
+.bio {
+    height: auto;
+    font-weight: 400;
+    color: #71663C;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.informationss {
+    margin-top: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -233,7 +374,7 @@ body {
 }
 
 #partiedroite {   
-    margin-left: 5px;
+    margin-left:20px;
     margin-top: 5px;
 }
 .fondphoto {
@@ -256,6 +397,7 @@ body {
     font-size: 0.9em;
 }
 .job {
+    width: auto;
 }
 .soul {
     
@@ -324,11 +466,16 @@ ul {
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 2em;
-    color: #DE927A;
+    color: #FECA07;
     margin-top: 10px;
 }
 .logo3 {
-   
+    color: #424242;
+    font-size: 1.5em;
+    border: 5px solid #424242;
+    padding: 0.6em;
+    border-radius: 50%;
+    margin-bottom: 25px;
 }
 .conteneurlogo {
     
@@ -386,7 +533,7 @@ h1{
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 1.3em;
-    color: #DE927A;
+    color: #FECA07;
     margin-top: 10px;
 }
 .info {
