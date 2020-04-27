@@ -201,7 +201,15 @@ ul {
 /*ajustement de la taille de l'ecran*/
 
 @media screen and (max-width: 1200px){/*point de rupture(breaking point)valeur max a 1200px.*/
-.name {
+
+#partiegauche {
+    flex-direction: column;
+    background-color: #FECA07;
+    width: 350px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}.name {
     font-size: 1.5em;
 }  
 #partiedroite {
@@ -211,7 +219,7 @@ ul {
     flex-grow: 1;
     display: block;
     font-family: 'Poppins', sans-serif;
-    width: auto;
+    width: 450px;
     height: auto;
 }
 .logocotebordure {
@@ -228,7 +236,7 @@ ul {
     font-size: 1em;
 }
 .ref {
-    width: 550px;
+    width: auto;
     height: auto;
     margin-left: 13px;
 }
@@ -384,6 +392,8 @@ body {
 #partiedroite {   
     margin-left:20px;
     margin-top: 5px;
+    width: auto;
+    height: auto;
 }
 .fondphoto {
 
