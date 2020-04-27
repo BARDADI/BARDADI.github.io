@@ -228,12 +228,12 @@ ul {
     font-size: 1em;
 }
 .ref {
-    width: auto;
+    width: 550px;
     height: auto;
     margin-left: 13px;
 }
 .photo {
-    margin-left:  120px;
+    margin-left:  125px;
     border-radius: 50%;
     height: 130px;
     width: 120px;
@@ -327,8 +327,16 @@ h4 {
 .informationss {
     margin-top: 125px;
 }
-
-
+.name {
+    font-size: 0.9em;
+}
+.infodroite {
+    display: flex;
+    color: #4A4A4A;
+}
+.fondphoto {
+    justify-content: center;
+}
 
 
 
@@ -362,11 +370,11 @@ body {
 .information {
    height:auto;
    justify-content:space-around;
-   border:1px solid;
+   
 }
 .informations {
     height:auto;
-    border:1px solid;
+    
 }
 .informationss {
     margin-top:inherit;
@@ -387,7 +395,7 @@ body {
     box-shadow: 0 0 0px 4px #DAAF12;
     position: absolute;
     top: 30px;
-    left: 240px;
+    left: 209px;
 }
 .titregauche {  
     font-weight: 400;
@@ -487,15 +495,15 @@ ul {
   
  }
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:420px){    /* point de rupture(breaking point)valeur inferieur a 420px.*/
 
 .photo {
     height: 99px;
     width: 89px;
     box-shadow: 0 0 0px 4px #DAAF12;
     position: absolute;
-    top: -32px;
-    left: 123px;
+    top: -17px;
+    left: 73px;
 }
 .compinfo{ 
     margin-left: 13px;
