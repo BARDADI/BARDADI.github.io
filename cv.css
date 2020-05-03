@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     text-align: justify;
@@ -27,7 +28,7 @@ body {
 
 }
 .informationss {
-    margin-top: 180px;
+    margin-top: 290px;
 }
 .fondphoto 
 {
@@ -38,7 +39,7 @@ body {
     margin-left: 86px;
     border-radius: 50%;
     height: 209px;
-    width: 199px;
+    width: 200px;
     box-shadow: 0 0 0px 4px #DAAF12;
     margin-top: 50px;
 }
@@ -98,7 +99,7 @@ body {
 }
 .noms {
    
-   font-weight:270;
+   font-weight:70;
 }
 .date {
     display: flex;
@@ -114,11 +115,14 @@ body {
 }
 h3 {
     font-size:1.4em;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h4 {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    font-weight: 400;
+    color: #4A4A4A;
 }
 .infodroite {
     display: flex;
@@ -129,11 +133,10 @@ h4 {
     color: #4A4A4A;
     margin-top: 30px;
 }
-.ref{
-    width:500px;
-    height:250px;
-    
-    
+.ref {
+    width: 500px;
+    height: 250px;
+    margin-top: 18px;
 }
 .paragraphe {
     text-align: left;
@@ -183,9 +186,17 @@ ul {
 .logo3 {
     color: #424242;
     font-size: 1.5em;
-    border: 5px solid #424242;
+    border: 2px solid #424242;
     padding: 0.6em;
     border-radius: 50%;
+}
+.logo4 {
+    color: #424242;
+    font-size: 1.5em;
+    border: 2px solid #424242;
+    padding: 0.6em;
+    border-radius: 50%;
+    width: 30px;
 }
 .exp {
     font-family: 'Poppins', sans-serif;
@@ -193,10 +204,7 @@ ul {
     font-size: 1.9em;
     font-weight:600;
 }
-@font-face {
-    font-family: 'poppins';
-   
-}/*TYPE DE POLICE*/
+
 
 /*ajustement de la taille de l'ecran*/
 
@@ -231,14 +239,15 @@ ul {
 .date {
     display: flex;
     align-items: center;
-    width: auto;
-    height: auto;
+    width: 110px;
+   
     font-size: 1em;
 }
 .ref {
-    width: auto;
+    width: 400px;
     height: auto;
     margin-left: 13px;
+    margin-top: 18px;
 }
 .photo {
     margin-left:  125px;
@@ -288,22 +297,14 @@ ul {
 }
 h3 {
     font-size: 1em;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h4 {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-size: 0.9em;
 }
-.date {
-    display: flex;
-    align-items: center;
-    /* width: auto; */
-    height: auto;
-    font-size: 1em;
-    /* margin-left: -6px; */
-    width: 60px;
-}
+
 .paragraphe {
     text-align: left;
     font-size: 0.8em;
@@ -333,7 +334,7 @@ h4 {
     margin-right: 40px;
 }
 .informationss {
-    margin-top: 125px;
+    margin-top: 190px;
 }
 .name {
     font-size: 0.9em;
@@ -444,7 +445,7 @@ h3 {
     margin-top: 10px;
 }
 h4 {
-    margin-top: -10px; 
+    margin-top: 5px; 
 }
 .infodroite {
    
@@ -460,7 +461,7 @@ h4 {
 }
 .compinfo{ 
     margin-left:0px;
-    width: 120px;
+    width: 150px;
     font-size:0.9em;
 }
 .compinfo1 {
@@ -490,7 +491,15 @@ ul {
 .logo3 {
     color: #424242;
     font-size: 1.5em;
-    border: 5px solid #424242;
+    border: 2px solid #424242;
+    padding: 0.6em;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.logo4{
+    color: #424242;
+    font-size: 1.5em;
+    border: 2px solid #424242;
     padding: 0.6em;
     border-radius: 50%;
     margin-bottom: 25px;
