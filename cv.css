@@ -8,11 +8,10 @@ body {
 /* PARTIE GAUCHE*/
 #partiegauche {
     flex-direction: column;
-    background-color: #FECA07;
+    background-color: #F57C00;
     width: auto;
     height: auto;
     font-family: 'Poppins', sans-serif;
-    
 }
 .bio {
     height: 850px;
@@ -40,16 +39,16 @@ body {
     border-radius: 50%;
     height: 209px;
     width: 200px;
-    box-shadow: 0 0 0px 4px #DAAF12;
+    box-shadow: 0 0 0px 4px #E65100;
     margin-top: 50px;
 }
 .titregauche {
     background-color: #404040;
-    color: #FECA07;
+    color: #F57C00;
     text-align: center;
     font-weight: 500;
     font-size: 1.7em;
-     width: auto;
+    width: auto;
     height: auto;
 }
 .conteneurlogo {
@@ -69,6 +68,7 @@ body {
 }
 
 /*PARTIE DROITE*/
+
 #partiedroite {
     flex-direction: column;
     margin-left: 100px;
@@ -91,11 +91,11 @@ body {
     color: #4A4A4A;
 }
 .soul {
-    border-bottom: 2px solid #FECA07;
+    border-bottom: 2px solid #F57C00;
 }
 .prenom {
     font-weight: 400;
-    color: #FECA07;
+    color: #F57C00;
 }
 .noms {
    
@@ -114,9 +114,10 @@ body {
     font-weight: 600;
 }
 h3 {
-    font-size:1.4em;
+    font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #4A4A4A;
 }
 h4 {
     margin-bottom: 0px;
@@ -166,7 +167,7 @@ ul {
 .logocotebordure {
     display: flex;
     border-bottom: 2px solid;
-    border-color: #FECA07;
+    border-color: #F57C00;
     width: 750px;
 }
 .logo1{
@@ -176,12 +177,12 @@ ul {
 }
 .far.fa-dot-circle, .fas.fa-circle {
     font-size: 1em;
-    color: #FECA07;
+    color: #F57C00;
     margin-bottom: 30px;
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 3em;
-    color:#FECA07;
+    color: #F57C00;
 }
 .logo3 {
     color: #424242;
@@ -205,14 +206,12 @@ ul {
     font-weight:600;
 }
 
-
 /*ajustement de la taille de l'ecran*/
 
 @media screen and (max-width: 1200px){/*point de rupture(breaking point)valeur max a 1200px.*/
 
 #partiegauche {
     flex-direction: column;
-    background-color: #FECA07;
     width: 350px;
     height: auto;
     font-family: 'Poppins', sans-serif;
@@ -233,7 +232,7 @@ ul {
 .logocotebordure {
     display: flex;
     border-bottom: 2px solid;
-    border-color: #FECA07;
+    border-color: #F57C00;
     width: auto;
 }
 .date {
@@ -254,7 +253,7 @@ ul {
     border-radius: 50%;
     height: 130px;
     width: 120px;
-    box-shadow: 0 0 0px 4px #DAAF12;
+    box-shadow: 0 0 0px 4px #E65100;
     margin-top: 30px;
 }
 .information {
@@ -263,7 +262,6 @@ ul {
 }
 .titregauche {
     background-color: #404040;
-    color: #FECA07;
     text-align: center;
     font-weight: 500;
     font-size: 1.2em;
@@ -282,7 +280,6 @@ ul {
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 2em;
-    color: #FECA07;
 }
 .exp {
     font-family: 'Poppins', sans-serif;
@@ -402,8 +399,8 @@ body {
 }
 .photo {   
     height: 149px;
-    width: 129px;
-    box-shadow: 0 0 0px 4px #DAAF12;
+    width: 145px;
+    box-shadow: 0 0 0px 4px #E65100;
     position: absolute;
     top: 30px;
     left: 209px;
@@ -480,12 +477,10 @@ ul {
     width:auto;
 }
 .far.fa-dot-circle, .fas.fa-circle {
-    color:#FECA07;
     font-size: 0.9em;
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 2em;
-    color: #FECA07;
     margin-top: 10px;
 }
 .logo3 {
@@ -519,7 +514,7 @@ ul {
 .photo {
     height: 99px;
     width: 89px;
-    box-shadow: 0 0 0px 4px #DAAF12;
+    box-shadow: 0 0 0px 4px #E65100;
     position: absolute;
     top: -17px;
     left: 73px;
@@ -560,7 +555,6 @@ h1{
 }
 .fas.fa-graduation-cap, .fas.fa-pencil-alt, .fas.fa-briefcase {
     font-size: 1.3em;
-    color: #FECA07;
     margin-top: 10px;
 }
 .info {
