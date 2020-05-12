@@ -58,7 +58,7 @@ body {
     align-items: center;
     height: 90%;
     width: 99%;
-    margin-top: 35px;
+    
 }
 .info {
     font-weight: 400;
@@ -523,8 +523,8 @@ ul {
     width: 89px;
     box-shadow: 0 0 0px 4px #E65100;
     position: absolute;
-    top: -17px;
-    left: 73px;
+   top: -10px;
+    left: 227px;
 }
 .compinfo{ 
     margin-left: 13px;
