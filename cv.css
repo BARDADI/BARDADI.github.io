@@ -31,11 +31,11 @@ body {
 }
 .fondphoto 
 {
-   
+   text-align:center;
    
 }
 .photo {
-    margin-left: 86px;
+   
     border-radius: 50%;
     height: 209px;
     width: 200px;
@@ -250,8 +250,13 @@ ul {
     margin-left: 13px;
     margin-top: 18px;
 }
+.fondphoto 
+{
+   text-align:center;
+   
+}
 .photo {
-    margin-left:  125px;
+    
     border-radius: 50%;
     height: 130px;
     width: 120px;
@@ -397,15 +402,15 @@ body {
 }
 .fondphoto {
 
-   
+    
 }
 .photo {   
     height: 149px;
     width: 145px;
     box-shadow: 0 0 0px 4px #E65100;
     position: absolute;
-    top: 30px;
-    left: 209px;
+    top: 50px;
+    left: 330px;
 }
 .titregauche {  
     font-weight: 400;
